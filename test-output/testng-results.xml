@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Driver setup is done]]>
+    </line>
+    <line>
+      <![CDATA[Starting the Test Case execution]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Driver Instance is created]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Instance is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Url is opened : https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Entered the username as : standard_user]]>
+    </line>
+    <line>
+      <![CDATA[Entered the password as : secret_sauce]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Login Button]]>
+    </line>
+    <line>
+      <![CDATA[Verified Loading of Home Page successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product for opening Product description page : Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Verified Loading of Product Desciption Page successfully]]>
+    </line>
+    <line>
+      <![CDATA[Add to Cart button is Present]]>
+    </line>
+    <line>
+      <![CDATA[Price of the product is > 0 and is valid]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Add to Cart]]>
+    </line>
+    <line>
+      <![CDATA[Remove button is Present]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to Cart Page]]>
+    </line>
+    <line>
+      <![CDATA[Verified Loading of Cart Page successfully]]>
+    </line>
+    <line>
+      <![CDATA[Verified Cart Page product]]>
+    </line>
+    <line>
+      <![CDATA[Verified Cart Page product price]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to Checkout Page]]>
+    </line>
+    <line>
+      <![CDATA[Verified Loading of Checkout Page successfully]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer details in the Checkoutpage]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Verified Loading of Checkout Overview Page successfully]]>
+    </line>
+    <line>
+      <![CDATA[Verified Checkout Overview Page product]]>
+    </line>
+    <line>
+      <![CDATA[Verified Checkout Overview Page product price]]>
+    </line>
+    <line>
+      <![CDATA[Verified Total Price in  Checkout Overview Page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Finish Button]]>
+    </line>
+    <line>
+      <![CDATA[Verified Loading of Checkout Complete Page successfully]]>
+    </line>
+    <line>
+      <![CDATA[Verified Checkout Overview Page product]]>
+    </line>
+    <line>
+      <![CDATA[Closed the Chrome driver Instance]]>
+    </line>
+    <line>
+      <![CDATA[Quitted the Chrome driver Instance]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-16T17:50:31 IST" name="Suite" finished-at="2024-03-16T17:51:00 IST" duration-ms="28974">
+    <groups>
+    </groups>
+    <test started-at="2024-03-16T17:50:31 IST" name="Test" finished-at="2024-03-16T17:51:00 IST" duration-ms="28974">
+      <class name="tests.CheckoutCompleteTests">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:tests.CheckoutCompleteTests@7fa98a66]" started-at="2024-03-16T17:50:28 IST" name="browserSetup" finished-at="2024-03-16T17:50:31 IST" duration-ms="2329" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Driver setup is done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="driverInstanceSetup()[pri:0, instance:tests.CheckoutCompleteTests@7fa98a66]" started-at="2024-03-16T17:50:31 IST" name="driverInstanceSetup" finished-at="2024-03-16T17:50:34 IST" duration-ms="3415" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting the Test Case execution]]>
+            </line>
+            <line>
+              <![CDATA[Chrome Driver Instance is created]]>
+            </line>
+            <line>
+              <![CDATA[Chrome Instance is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driverInstanceSetup -->
+        <test-method signature="Test1(java.lang.String)[pri:0, instance:tests.CheckoutCompleteTests@7fa98a66]" started-at="2024-03-16T17:50:34 IST" name="Test1" finished-at="2024-03-16T17:50:59 IST" duration-ms="25097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Url is opened : https://www.saucedemo.com/]]>
+            </line>
+            <line>
+              <![CDATA[Entered the username as : standard_user]]>
+            </line>
+            <line>
+              <![CDATA[Entered the password as : secret_sauce]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Login Button]]>
+            </line>
+            <line>
+              <![CDATA[Verified Loading of Home Page successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product for opening Product description page : Sauce Labs Backpack]]>
+            </line>
+            <line>
+              <![CDATA[Verified Loading of Product Desciption Page successfully]]>
+            </line>
+            <line>
+              <![CDATA[Add to Cart button is Present]]>
+            </line>
+            <line>
+              <![CDATA[Price of the product is > 0 and is valid]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Add to Cart]]>
+            </line>
+            <line>
+              <![CDATA[Remove button is Present]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to Cart Page]]>
+            </line>
+            <line>
+              <![CDATA[Verified Loading of Cart Page successfully]]>
+            </line>
+            <line>
+              <![CDATA[Verified Cart Page product]]>
+            </line>
+            <line>
+              <![CDATA[Verified Cart Page product price]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to Checkout Page]]>
+            </line>
+            <line>
+              <![CDATA[Verified Loading of Checkout Page successfully]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer details in the Checkoutpage]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Verified Loading of Checkout Overview Page successfully]]>
+            </line>
+            <line>
+              <![CDATA[Verified Checkout Overview Page product]]>
+            </line>
+            <line>
+              <![CDATA[Verified Checkout Overview Page product price]]>
+            </line>
+            <line>
+              <![CDATA[Verified Total Price in  Checkout Overview Page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Finish Button]]>
+            </line>
+            <line>
+              <![CDATA[Verified Loading of Checkout Complete Page successfully]]>
+            </line>
+            <line>
+              <![CDATA[Verified Checkout Overview Page product]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.CheckoutCompleteTests@7fa98a66]" started-at="2024-03-16T17:50:59 IST" name="closeBrowser" finished-at="2024-03-16T17:51:00 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed the Chrome driver Instance]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="quitTest()[pri:0, instance:tests.CheckoutCompleteTests@7fa98a66]" started-at="2024-03-16T17:51:00 IST" name="quitTest" finished-at="2024-03-16T17:51:00 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Quitted the Chrome driver Instance]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- tests.CheckoutCompleteTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
