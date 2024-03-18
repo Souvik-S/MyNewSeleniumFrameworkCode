@@ -4,7 +4,7 @@
 <parameter name="url" value="https://www.saucedemo.com/"></parameter>
   <test name="Test" parallel="classes" thread-count="2">
   <classes>
- 	 <class name="tests.CartTests"/>
+ 	 <class name="tests.CheckoutTests"/>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
