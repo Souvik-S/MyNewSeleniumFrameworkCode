@@ -5,6 +5,7 @@
   <test name="Test" parallel="classes" thread-count="2">
   <classes>
  	 <class name="tests.CheckoutTests"/>
+ 	 
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
