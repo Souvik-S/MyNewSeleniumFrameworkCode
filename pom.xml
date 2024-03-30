@@ -4,10 +4,10 @@
   <artifactId>SeleniumFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <properties>
-     <maven.compiler.source>1.8</maven.compiler.source>
-     <maven.compiler.target>1.8</maven.compiler.target>
-</properties>
+   <properties>
+		<maven.compiler.source>14</maven.compiler.source>
+		<maven.compiler.target>14</maven.compiler.target>
+	</properties>
   
    <dependencies>
   <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
@@ -37,5 +37,21 @@
 </dependency>
 
   </dependencies>
+  
+  <build>
+		<plugins>
+			<!-- Added Surefire Plugin configuration to execute tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.19.1</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>${xmlsuiteFilename}</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
   
 </project>
