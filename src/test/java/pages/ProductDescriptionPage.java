@@ -12,8 +12,8 @@ public class ProductDescriptionPage{
 	
 	WebDriver driver;
 	
-	public ProductDescriptionPage(){
-		driver = BaseTest.returnDriver();
+	public ProductDescriptionPage(WebDriver driver){
+		this.driver = driver;
 	}
 	
 	By backToProductsText = By.id("back-to-products");

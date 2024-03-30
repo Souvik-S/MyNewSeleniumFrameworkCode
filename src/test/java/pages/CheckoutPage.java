@@ -12,8 +12,8 @@ public class CheckoutPage{
 	
 	WebDriver driver;
 	
-	public CheckoutPage(){
-		driver = BaseTest.returnDriver();
+	public CheckoutPage(WebDriver driver){
+		this.driver = driver;
 	}
 	
 	By checkoutPageTitle = By.xpath("//span[text()='Checkout: Your Information']");

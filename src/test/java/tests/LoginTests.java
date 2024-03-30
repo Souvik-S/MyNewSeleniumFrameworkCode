@@ -2,6 +2,7 @@ package tests;
 
 import java.io.IOException;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -14,14 +15,15 @@ import utils.PropertyReadWrite;
 public class LoginTests extends BaseTest {
 	
 	String dataPath = "D:\\Eclipse_WorkSpace\\SeleniumFramework\\src\\test\\resources\\testdata\\loginData.properties";
-	
+	WebDriver driver;
 	
 	@Parameters({"url"})
 	@Test(priority = 1)
 	public void Test1(String url) throws InterruptedException, IOException {
-		LoginPage loginpage = new LoginPage();
+		driver = returnDriver();
+		LoginPage loginpage = new LoginPage(driver);
 		CommonFunctions commonFunction = new CommonFunctions();
-		HomePage homepage = new HomePage();
+		HomePage homepage = new HomePage(driver);
 		
 		
 		openURL(url);
@@ -36,9 +38,10 @@ public class LoginTests extends BaseTest {
 	@Parameters({"url"})
 	@Test(priority = 2)
 	public void Test2(String url) throws InterruptedException, IOException {
-		LoginPage loginpage = new LoginPage();
+		driver = returnDriver();
+		LoginPage loginpage = new LoginPage(driver);
 		CommonFunctions commonFunction = new CommonFunctions();
-		HomePage homepage = new HomePage();
+		HomePage homepage = new HomePage(driver);
 		
 		
 		openURL(url);
@@ -53,9 +56,10 @@ public class LoginTests extends BaseTest {
 	@Parameters({"url"})
 	@Test(priority = 3)
 	public void Test3(String url) throws InterruptedException, IOException {
-		LoginPage loginpage = new LoginPage();
+		driver = returnDriver();
+		LoginPage loginpage = new LoginPage(driver);
 		CommonFunctions commonFunction = new CommonFunctions();
-		HomePage homepage = new HomePage();
+		HomePage homepage = new HomePage(driver);
 		
 		
 		openURL(url);

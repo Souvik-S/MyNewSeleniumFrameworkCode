@@ -12,8 +12,8 @@ public class CartPage{
 	
 	WebDriver driver;
 	
-	public CartPage(){
-		driver = BaseTest.returnDriver();
+	public CartPage(WebDriver driver){
+		this.driver = driver;
 	}
 	
 	By navigateToCart = By.xpath("//a[@class='shopping_cart_link']");

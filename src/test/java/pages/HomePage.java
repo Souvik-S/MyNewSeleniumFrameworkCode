@@ -12,8 +12,8 @@ public class HomePage{
 	
 	WebDriver driver;
 	
-	public HomePage(){
-		driver = BaseTest.returnDriver();
+	public HomePage(WebDriver driver){
+		this.driver = driver;
 	}
 	
 	By homePageTitle = By.xpath("//div[text()='Swag Labs']");

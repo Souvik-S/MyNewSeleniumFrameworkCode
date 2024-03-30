@@ -2,6 +2,7 @@ package tests;
 
 import java.io.IOException;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -16,16 +17,18 @@ import utils.PropertyReadWrite;
 public class CartTests extends BaseTest {
 	
 	String dataPath = "D:\\Eclipse_WorkSpace\\SeleniumFramework\\src\\test\\resources\\testdata\\loginData.properties";
+	WebDriver driver;
 	
 	
 	@Parameters({"url"})
 	@Test
 	public void Test1(String url) throws InterruptedException, IOException {
-		LoginPage loginpage = new LoginPage();
+		driver = returnDriver();
+		LoginPage loginpage = new LoginPage(driver);
 		CommonFunctions commonFunction = new CommonFunctions();
-		HomePage homepage = new HomePage();
-		ProductDescriptionPage pdp = new ProductDescriptionPage();
-		CartPage cartpage = new CartPage();
+		HomePage homepage = new HomePage(driver);
+		ProductDescriptionPage pdp = new ProductDescriptionPage(driver);
+		CartPage cartpage = new CartPage(driver);
 		
 		
 		openURL(url);

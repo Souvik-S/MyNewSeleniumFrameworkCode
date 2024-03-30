@@ -11,8 +11,8 @@ public class LoginPage{
 	
 	WebDriver driver;
 	
-	public LoginPage(){
-		driver = BaseTest.returnDriver();
+	public LoginPage(WebDriver driver){
+		this.driver = driver;
 	}
 	
 	By userName = By.id("user-name");
