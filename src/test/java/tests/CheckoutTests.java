@@ -24,6 +24,7 @@ public class CheckoutTests extends BaseTest {
 	@Parameters({"url"})
 	@Test
 	public void Test1(String url) throws InterruptedException, IOException {
+		driverInstanceSetup();
 		driver = returnDriver();
 		LoginPage loginpage = new LoginPage(driver);
 		CommonFunctions commonFunction = new CommonFunctions();
