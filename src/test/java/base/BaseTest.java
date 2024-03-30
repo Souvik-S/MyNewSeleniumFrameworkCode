@@ -27,8 +27,9 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		Reporter.log("Chrome Driver Instance is created");
 		Reporter.log("Chrome Instance is maximized");
-		System.out.println("Souvik");
-		System.out.println("is taking a class");
+		System.out.println("Hi");
+		System.out.println("Hello");
+		System.out.println("Hey");
 	}
 	
 	public void openURL(String url)
